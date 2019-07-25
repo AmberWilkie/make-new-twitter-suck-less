@@ -3,4 +3,4 @@ async function removeSidebar() {
     sidebar.setAttribute('style', 'display:none')
   }
 
-setTimeout(removeSidebar, 500)
+setTimeout(removeSidebar, 750)
