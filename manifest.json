@@ -1,0 +1,13 @@
+{
+    "manifest_version": 2,
+   
+    "name": "Make the new Twitter suck less",
+    "version": "0.1.0",
+    "description": "Clean up that annoying and visually heavy side bar",
+   
+    "content_scripts": [{
+      "js": ["content.js"],
+      "matches": ["https://twitter.com/*"]
+    }]
+   
+  }
